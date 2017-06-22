@@ -1,0 +1,32 @@
+{
+  "name": "poke-react",
+  "version": "1.0.0",
+  "description": "A very simple pokedex with react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-brito/poke-react.git"
+  },
+  "author": "Gabriel Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel-brito/poke-react"
+  },
+  "devDependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "lint-staged": "^4.0.0",
+    "prettier": "^1.4.4"
+  }
+}
