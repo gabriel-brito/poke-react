@@ -2,19 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Pokemons from './Pokemons';
 
-class Pokedex extends React.Component{
-	constructor(props){
-		super(props);
-	}
 
+const Pokedex = React.createClass({
 	render(){
 		return(
-			<div>
-				<h1>MC LAN NOVAMENTE!</h1>
-				<Pokemons />
+			<div className="app">
+				<Pokemons pokemonName="charmander" />
 			</div>
-		);
+		)
 	}
-};
+
+});
 
 export default Pokedex;
